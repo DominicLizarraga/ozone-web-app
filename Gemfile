@@ -31,6 +31,7 @@ gem 'bootsnap', '>= 1.4.4', require: false
 
 gem 'bootstrap', '~> 5.1'
 gem 'jquery-rails'
+gem 'json', '~> 2.5', '>= 2.5.1'
 
 
 
