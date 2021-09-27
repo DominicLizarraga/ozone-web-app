@@ -2,8 +2,8 @@
   <h1 class="display-4"><%= @final_ouput %></h1>
   <p class="lead">This is the current ozone quality readout for my neighborhood in <%= @final_ouput.nil? ? @output[0]["ReportingArea"] : "No City found." %>.</p>
   <hr class="my-4">
-  <p>Hit "Reload" in your web browser to refresh the reading....</p>
-  <a class="btn btn-info btn-lg" href="#" role="button">Learn more</a>
+  <p> <%= @api_message  %> </p>
+  <br>
 </div>
 
 <br>
