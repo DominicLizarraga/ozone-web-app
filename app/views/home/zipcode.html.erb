@@ -1,6 +1,7 @@
+
 <div class="jumbotron <%= @api_color %> ">
   <h1 class="display-4"><%= @final_ouput %></h1>
-  <p class="lead">This is the current ozone quality readout for my neighborhood in San Diego.</p>
+  <p class="lead">This is the current ozone quality readout for my neighborhood in <%= @zip_query %> zipcode.</p>
   <hr class="my-4">
   <p> <%= @api_message  %> </p>
   <br>
